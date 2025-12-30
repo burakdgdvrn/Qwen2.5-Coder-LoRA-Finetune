@@ -18,14 +18,14 @@ As requested, this repository is organized as follows:
 Below are the loss graphs showing the change in **Train** and **Validation** loss values. As per the project requirements, **data points are marked every 20 steps** to clearly visualize the training trajectory and data frequency.
 
 ### A. Deep Instruction Model Training
-![Deep Loss Graph](İmages/deep_loss_graph.png)
+![Deep Loss Graph](images/deep_loss_graph.png)
 
 **Interpretation:**
 * **Learning Trend:** The training loss shows a steady and consistent decline from approximately 0.55 down to 0.21.
 * **Convergence:** The model demonstrates strong convergence without significant divergence between steps. This indicates that the model successfully learned the patterns in the Deep Instruction dataset without major instability.
 
 ### B. Diverse Instruction Model Training
-![Diverse Loss Graph](İmages/diverse_loss_graph.png)
+![Diverse Loss Graph](images/diverse_loss_graph.png)
 
 **Interpretation (Overfitting Analysis):**
 * **Training vs. Validation:** While the training loss (blue line) continues to decrease, the validation loss (red dashed line) plateaus around the 0.35 mark and shows slight fluctuations after Step 400.
