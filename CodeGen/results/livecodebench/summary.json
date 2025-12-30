@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-12-28T23:54:30.563995",
+  "config": {
+    "base_model": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+    "livecodebench_version": "release_v5",
+    "date_range": "2408-2502",
+    "platform": "atcoder",
+    "difficulty": "easy",
+    "model_types": [
+      "deep_instruction"
+    ],
+    "steps": [
+      800
+    ],
+    "num_problems": 41
+  },
+  "results": [
+    {
+      "model_name": "deep_instruction_checkpoint-step-800-epoch-2",
+      "model_type": "deep_instruction",
+      "checkpoint_path": "models\\deep_instruction\\checkpoints\\checkpoint-step-800-epoch-2",
+      "difficulty": "2408-2502_atcoder",
+      "num_problems": 41,
+      "timestamp": "2025-12-28T23:54:30.561032",
+      "stats": {
+        "total": 40,
+        "passed": 14,
+        "failed": 26,
+        "error": 0,
+        "no_tests": 0,
+        "pass_at_1": 0.35
+      },
+      "pass_at_1": 0.35,
+      "detailed_log": "results\\livecodebench\\detailed\\deep_instruction_checkpoint-step-800-epoch-2_2408-2502_atcoder.jsonl"
+    }
+  ]
+}
